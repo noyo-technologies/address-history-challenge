@@ -1,6 +1,6 @@
-# Address History Server
+# Address History API
 
-This server provides a set of endpoints that allows the user to perform CRUD operations on an `Address` model as well as to view historical versions of an address by looking at the events that have taken place on the Address. 
+This API provides a set of endpoints that allows the user to perform CRUD operations on an `Address` model as well as to view historical versions of an address by looking at the events that have taken place on the Address. 
 
 ## Running the Server
 
