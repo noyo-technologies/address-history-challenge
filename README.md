@@ -4,7 +4,7 @@
 
 The only prerequisite for running this server is to have [Docker](https://docs.docker.com/install/) installed. 
 
-Once you have Docker installed you can run the following:
+Once you have Docker installed and have cloned this repository into a local folder you can run the following:
 
 ```bash
 ./go
