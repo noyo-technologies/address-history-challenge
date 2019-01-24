@@ -121,9 +121,7 @@ You can use this endpoint to see an ordered list of all the events that have occ
 ```json
 [
   {
-    "id": 5,
     "type": "ADDRESS_CREATED",
-    "meta_data": {},
     "payload": {
       "id": "11de72d0-1f95-11e9-9a66-219542f4f9e9",
       "user_id": "44fe83d5-a6be-4b2d-934f-1c13796bb569",
@@ -136,9 +134,7 @@ You can use this endpoint to see an ordered list of all the events that have occ
     "url": "/addresses/11de72d0-1f95-11e9-9a66-219542f4f9e9?as_of=1548306072236"
   },
   {
-    "id": 9,
     "type": "ADDRESS_UPDATED",
-    "meta_data": {},
     "payload": {
       "zip_code": "94111"
     },
@@ -146,9 +142,7 @@ You can use this endpoint to see an ordered list of all the events that have occ
     "url": "/addresses/11de72d0-1f95-11e9-9a66-219542f4f9e9?as_of=1548306349771"
   },
   {
-    "id": 10,
     "type": "ADDRESS_DELETED",
-    "meta_data": {},
     "payload": {
       "deleted_at": "2019-01-24T05:08:50.470Z"
     },
@@ -156,9 +150,7 @@ You can use this endpoint to see an ordered list of all the events that have occ
     "url": "/addresses/11de72d0-1f95-11e9-9a66-219542f4f9e9?as_of=1548306530505"
   },
   {
-    "id": 11,
     "type": "ADDRESS_RESTORED",
-    "meta_data": {},
     "payload": {
       "restored_at": "2019-01-24T05:09:00.050Z"
     },
