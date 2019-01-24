@@ -1,5 +1,19 @@
 # Address History Server
 
+## Running the Server
+
+The only prerequisite for running this server is to have [Docker](https://docs.docker.com/install/) installed. 
+
+Once you have Docker installed you can run the following:
+
+```bash
+./go
+```
+
+The server will now be available at http://localhost:5000
+
+## Address Model
+
 This server provides a set of endpoints that allows the user to perform CRUD operations on an `Address` model. The `Address` model has the following properties:
 
 
