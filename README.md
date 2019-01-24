@@ -1,5 +1,7 @@
 # Address History Server
 
+This server provides a set of endpoints that allows the user to perform CRUD operations on an `Address` model as well as to view historical versions of an address by looking at the events that have taken place on the Address. 
+
 ## Running the Server
 
 The only prerequisite for running this server is to have [Docker](https://docs.docker.com/install/) installed. 
@@ -13,9 +15,6 @@ Once you have Docker installed and have cloned this repository into a local fold
 The server will now be available at http://localhost:5000
 
 ## Address Model
-
-This server provides a set of endpoints that allows the user to perform CRUD operations on an `Address` model. The `Address` model has the following properties:
-
 
 Property | Description | Example
 :--- | :--- | :---
