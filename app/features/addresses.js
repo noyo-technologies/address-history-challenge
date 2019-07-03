@@ -97,7 +97,7 @@ exports.register = (server, options, next) => {
     config: {
       tags: ['api'],
       handler: (request, reply) => {
-        State.findById(request.payload.state.toUpperCase())
+        State.findByPk(request.payload.state.toUpperCase())
         .then(state => {
           if (!state) throw server.plugins.errors.invalidState
 
@@ -136,7 +136,7 @@ exports.register = (server, options, next) => {
         P.resolve()
         .then(() => {
           if (request.payload.state) {
-            return State.findById(request.payload.state.toUpperCase())
+            return State.findByPk(request.payload.state.toUpperCase())
             .then(_state => {
               if (!_state) throw server.plugins.errors.invalidState
               state = _state
