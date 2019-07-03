@@ -1,6 +1,9 @@
 const Joi = require('joi')
 const P   = require('bluebird')
 
+const Sequelize = require('sequelize')
+const Op = Sequelize.Op
+
 exports.register = (server, options, next) => {
 
   const Events = options.events
@@ -210,7 +213,9 @@ exports.register = (server, options, next) => {
         Address.findOne({
           where: {
             id: request.params.addressId,
-            deleted_at: {$ne: null}
+            deleted_at: {
+              [Op.ne]: null
+            }
           }
         })
         .then(address => {
