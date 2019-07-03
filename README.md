@@ -1,10 +1,10 @@
 # Address History API
 
-This API provides a set of endpoints that allows the user to perform CRUD operations on an `Address` model as well as to view historical versions of an address by looking at the events that have taken place on the Address. 
+This API provides a set of endpoints that allows the user to perform CRUD operations on an `Address` model as well as to view historical versions of an address by looking at the events that have taken place on the Address.
 
 ## Running the Server
 
-The only prerequisite for running this server is to have [Docker](https://docs.docker.com/install/) installed. 
+The only prerequisite for running this server is to have [Docker](https://docs.docker.com/install/) installed.
 
 Once you have Docker installed and have cloned this repository into a local folder you can run the following:
 
@@ -115,7 +115,7 @@ The response contains the updated address.
 
 ### `DELETE /addresses/{address_id}`
 
-Delete an existing address using its `id`. This endpoint responds with no content. 
+Delete an existing address using its `id`. This endpoint responds with no content.
 
 ### `POST /addresses/{address_id}/restore`
 
@@ -125,10 +125,10 @@ The API supports **restoring** a deleted address using this endpoint. It respond
 
 ### `GET /addresses/{address_id}/events`
 
-You can use this endpoint to see an ordered list of all the events that have occurred for a given address. 
+You can use this endpoint to see an ordered list of all the events that have occurred for a given address.
 
 - The sample below contains one of each possible event `type`
-- The `payload` is the body of the request that triggered the event. 
+- The `payload` is the body of the request that triggered the event.
 - The `url` is a direct link to view the full address with the correct `as_of` populated
 
 ```json
