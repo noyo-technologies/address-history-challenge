@@ -15,7 +15,6 @@ exports.register = (server, _, next) => {
           group: ['user_id']
         })
         .then(addresses => {
-          console.log(addresses);
           const userIds = addresses.map((address) => address.user_id);
           return userIds
         })
