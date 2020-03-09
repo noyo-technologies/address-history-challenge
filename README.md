@@ -22,7 +22,7 @@ You can seed the database with a couple users with an address by hitting `POST /
 
 We have published a [Postman](https://www.postman.com/) collection to help make it easier to make requests to the API. You can [import the collection](https://learning.postman.com/docs/postman/collection-runs/working-with-data-files/) using the following link:
 
-> https://www.postman.com/collections/565608f9580ab824bb80
+> https://www.getpostman.com/collections/587d9fc5fcd1ad56ccc6
 
 ## Address Model
 
