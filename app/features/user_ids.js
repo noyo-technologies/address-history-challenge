@@ -1,5 +1,3 @@
-const Sequelize = require('sequelize')
-
 exports.register = (server, _, next) => {
 
   const Address = server.plugins.db.models.Address
