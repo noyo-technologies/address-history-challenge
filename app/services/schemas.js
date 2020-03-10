@@ -12,7 +12,7 @@ exports.register = (server, options, next) => {
     }),
     addressUpdate: Joi.object().keys({
       street_one: Joi.string().max(255),
-      street_two: Joi.string().max(255),
+      street_two: Joi.string().max(255).allow(''),
       city: Joi.string().max(255),
       state: Joi.string().max(2),
       zip_code: Joi.string().regex(/[0-9]/).max(9)

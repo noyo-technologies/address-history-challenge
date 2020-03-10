@@ -49,8 +49,10 @@ server.register([
       options: {events: require('./events')}
     },
     {
-      register: require('./features/user_ids'),
-      options: {events: require('./events')}
+      register: require('./features/user_ids')
+    },
+    {
+      register: require('./features/seed')
     }
   ], err => {
     if (err) throw err

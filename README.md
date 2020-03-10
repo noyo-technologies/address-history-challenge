@@ -14,6 +14,16 @@ Once you have Docker installed and have cloned this repository into a local fold
 
 The server will now be available at http://localhost:5000
 
+### Seeding the Database
+
+You can seed the database with a couple users with an address by hitting `POST /seed` The server will respond with two user ids.
+
+### Navigating the API
+
+We have published a [Postman](https://www.postman.com/) collection to help make it easier to make requests to the API. You can [import the collection](https://learning.postman.com/docs/postman/collection-runs/working-with-data-files/) using the following link:
+
+> https://www.getpostman.com/collections/587d9fc5fcd1ad56ccc6
+
 ## Address Model
 
 Property | Description | Example
