@@ -12,7 +12,7 @@ Once you have Docker installed and have cloned this repository into a local fold
 ./go
 ```
 
-The server will now be available at http://localhost:5000
+The server will now be available at http://localhost:27606
 
 ### Seeding the Database
 
@@ -39,7 +39,7 @@ country | Two character country code for the address | US
 
 ## CRUD Endpoints
 
-The Swagger documentation for the endpoints can be found by running the local server and visiting http://localhost:5000/documentation.
+The Swagger documentation for the endpoints can be found by running the local server and visiting http://localhost:27606/documentation.
 
 ### `POST /addresses`
 
